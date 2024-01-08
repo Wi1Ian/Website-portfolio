@@ -5,6 +5,8 @@ export default function Header(){
             <ul>
                 <li> <a href='/home'>Home</a></li>
                 <li> <a href='/info'>Info</a></li>
+                <li> <a href='/projects'>Projects</a></li>
+                <li> <a href='/hobbies'>Hobbies</a></li>
             </ul>
         </nav>
         
