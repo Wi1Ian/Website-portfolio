@@ -2,5 +2,15 @@
 .crazy{
     width: auto;
     height:auto;
-    background-image: element(catImg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+.block{
+    background-color: gray;
+    width:auto;
+    align-items: center;
+}
+.clump{
+    text-align: center;
+    align-items: center;
 }

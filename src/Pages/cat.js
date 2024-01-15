@@ -7,16 +7,14 @@ async function getImage() {
         'x-api-key' : ' live_M9epSlRUOTisAsWJhFq91MU6lmxulWKGyEy27ZePDjJBYCev0qZrdeILgDISQ9nj ' ,
     }
   })
-  await fetch(request)
-  .then(response => response.json())
-  .then(data =>{
-        let caturl = data[0].url;
-        let catImg = document.createElement("img")
-        catImg.setAttribute('src', `${caturl}`)
-        let crazy = document.querySelector(".crazy")
-        
-        crazy.appendChild(catImg)
-    });
+  try{
+  const response = await fetch(request)
+  const data = await response.json();
+  let caturl = data[0].url;
+  document.body.style.backgroundImage = `url(${caturl})`;
+  } catch{
+    console.log("error")
+  }
 }
 
 
