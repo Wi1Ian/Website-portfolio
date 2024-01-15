@@ -1,18 +1,23 @@
 // import { TheCatAPI } from "@thatapicompany/thecatapi";
-const url = 'https://api.thecatapi.com/v1/images/search?'
-const api_key = 'live_M9epSlRUOTisAsWJhFq91MU6lmxulWKGyEy27ZePDjJBYCev0qZrdeILgDISQ9nj'
+
 async function getImage() {
-  const request = new Request(url,{
+  const urls = 'https://api.thecatapi.com/v1/images/search?'
+  const request = new Request(urls,{
     headers: {
-        'x-api-key' : ' live_M9epSlRUOTisAsWJhFq91MU6lmxulWKGyEy27ZePDjJBYCev0qZrdeILgDISQ9nj ' 
+        'x-api-key' : ' live_M9epSlRUOTisAsWJhFq91MU6lmxulWKGyEy27ZePDjJBYCev0qZrdeILgDISQ9nj ' ,
     }
   })
-  const response = await fetch(request)
-  const data = await response.json()
-  return data;
+  await fetch(request)
+  .then(response => response.json())
+  .then(data =>{
+        let caturl = data[0].url;
+        let catImg = document.createElement("img")
+        catImg.setAttribute('src', `${caturl}`)
+        let crazy = document.querySelector(".crazy")
+        
+        crazy.appendChild(catImg)
+    });
 }
 
-(async () => {
-    const urls2 = await getImage()
-    console.log(urls)
-})()
+
+getImage()
