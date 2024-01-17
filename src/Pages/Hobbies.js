@@ -1,18 +1,22 @@
 import Header from '../Components/Header'
 import './cat.js'
 import './Hobbies.css'
+// var button = document.createElement('refresh');
 
 export default function Hobbies() {
-    return(
+    return (
         <>
             <Header />
             <br />
-            <h2 className= 'MainHeader'>Hobbies page</h2>            
+            <h2 className='MainHeader'>Hobbies page</h2>
             <p1>Hello my name is jay</p1>
-            <script src='/cat.js'></script>
-            <div class = "crazy">
+            
+            <div class="crazy"> 
             </div>
-            <section className='block'><h1 className = "clump">hey</h1></section>
+            <br></br>
+            <button class= "refresh" >Refresh</button>
+            <script src='/cat.js'></script>
+
         </>
     )
 }

@@ -1,16 +1,11 @@
 
 .crazy{
-    width: auto;
-    height:auto;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    width: 1in;
+    height: 2in;
+    object-fit: cover;
+    padding-left: 1%;
 }
-.block{
-    background-color: gray;
-    width:auto;
-    align-items: center;
-}
-.clump{
-    text-align: center;
-    align-items: center;
+.refresh{
+    text-align: left;
+    margin-left: -85%;
 }
