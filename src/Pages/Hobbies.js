@@ -6,17 +6,17 @@ import './Hobbies.css'
 export default function Hobbies() {
     return (
         <>
+        
             <Header />
             <br />
             <h2 className='MainHeader'>Hobbies page</h2>
             <p1>Hello my name is jay</p1>
             
-            <div class="crazy"> 
+            <div className="crazy"> 
             </div>
             <br></br>
-            <button class= "refresh" >Refresh</button>
+            <button className= "refresh" id='sam' >Refresh</button>
             <script src='/cat.js'></script>
-
         </>
     )
 }

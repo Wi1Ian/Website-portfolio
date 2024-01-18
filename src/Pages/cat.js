@@ -1,5 +1,8 @@
 // import { TheCatAPI } from "@thatapicompany/thecatapi";
-let refresh = document.querySelector(".refresh")
+// let refresh = document.querySelector(".refresh")
+// if(refresh){
+// refresh.addEventListener("click", getImage, false);
+// }
 
 async function getImage() {
   const urls = 'https://api.thecatapi.com/v1/images/search?'
@@ -22,11 +25,13 @@ async function getImage() {
   catImg.style.height = "200px"
   catImg.style.objectFit = "cover"
   catImg.style.border = "2px solid black"
+  crazy.innerHTML = ''; //removes hte last image
     crazy.appendChild(catImg)
   } catch{
     console.log("error")
   }
 }
-refresh.addEventListener("click", getImage, true);
-
+window.onload=function(){
+document.getElementById("sam").addEventListener("click", getImage);
+}
 getImage()
