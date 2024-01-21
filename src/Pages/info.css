@@ -1,0 +1,77 @@
+.mainBlock{
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    min-height: 100vh;
+    /* height: 100vh; */
+    box-sizing: inherit;
+    background: linear-gradient(
+      to right,
+      #dfe7fd 0%,
+      #dfe7fd 50%,
+      #e2ece9 50%,
+      #e2ece9 100%
+    );   
+}
+.fill{
+    background: linear-gradient(
+    to right,
+    #dfe7fd 0%,
+    #dfe7fd 50%,
+    #e2ece9 50%,
+    #e2ece9 100%
+  );
+}
+
+.header {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: -7px;
+  }
+  .header2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 150%;
+  }
+
+  .gitLogo{
+    max-width: 5%;
+    height: auto;
+    width: auto;
+    float: left;
+    padding-right: 1%;
+    /* padding-top: 40%; */
+    /* padding-top: 700px; */
+    margin-top: auto;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+  }
+  .linkedInLogo{
+    max-width: 5%;
+    height: auto;
+    width: auto;
+    float: left;
+    padding-right: 1%;
+    margin-top: auto;
+    position:fixed;
+    bottom: 0;
+    left: 6%;
+  }
+  .instaLogo{
+    max-width: 5%;
+    height: auto;
+    width: auto;
+    float: left;
+    padding-right: 1%;
+    margin-top: auto;
+    position:fixed;
+    bottom: 0;
+    left: 12%;
+  }
+  
+  .footer{
+    margin-top: auto;
+    bottom: 0;
+  }
