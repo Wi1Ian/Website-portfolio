@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: column;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 95dvh;
     /* height: 100vh; */
     box-sizing: inherit;
     background: linear-gradient(
@@ -49,7 +49,7 @@
     left: 0;
   }
   .linkedInLogo{
-    max-width: 5%;
+    max-width: 5dvw;
     height: auto;
     width: auto;
     float: left;

@@ -31,10 +31,11 @@ nav ul{
 nav{
   position: sticky;
   top: 0;
-  width: 100%;
+  width: 100dvw;
   background-color: black;
   margin: 0 0 0 0;
   display: block;
+  height: 5dvh;
 }
 
 nav li {

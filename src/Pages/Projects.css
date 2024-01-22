@@ -38,55 +38,59 @@
 
   .ballGameImg{
     position: absolute;
-    left: 1%;
+    left: 1dvw;
     max-width: 15%;
     height: auto;
     width: auto;
-    float: left;
+    top: 11dvh;
   }
   .dungeonGameIng{
-    align-items: center;
-    position: fixed;
-    /* left: 32.7%; */
+    position: absolute;
+    left: 1dvw;
     max-width: 15%;
     height: auto;
     width: auto;
+    top: 11dvh;
     left: 42.5%;
   }
   .websiteIMG{
     position: absolute;
-    /* left: 65.4%; */
-    right: 1%;
+    right: 1dvw;
     max-width: 25%;
     height: auto;
     width: auto;
-    float: left;
+    top: 11dvh;
   }
   .ballgameDownload{
     position: absolute;
-    left: 6.5%;
-    max-width: 15%;
-    height: auto;
-    width: auto;
+    left: 6.2dvw;
+    width: 100%;
+    max-width: 5%;
+    /* height: auto;
+    width: auto; */
     float: left;
-    top: 35%;
+    top: 21.5dvw;
+    /* font-size: .7em; */
+    font-size: .8dvw;
   }
   .dungeonGameDownload{
-    align-items: center;
-    position:fixed;
-    max-width: 15%;
-    font-size: auto;
-    height: auto;
-    width: auto;
-    left: 48%;
-    top: 35%;
+    position: absolute;
+    left: 47.5dvw;
+    width: 100%;
+    max-width: 5%;
+    /* height: auto;
+    width: auto; */
+    float: left;
+    top: 21.5dvw;
+    /* font-size: .7em; */
+    font-size: .8dvw;
   }
 
   .websiteDownload{
     position: absolute;
-    right: 11.5%;
-    max-width: 25%;
-    height: auto;
-    width: auto;
-    top: 35%;
+    right: 10.9dvw;
+    width: 100%;
+    max-width: 5%;
+    top: 21.5dvw;
+    font-size: .8dvw;
   }
