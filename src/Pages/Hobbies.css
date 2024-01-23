@@ -1,11 +1,71 @@
-
-.crazy{
+.crazy {
     width: 1in;
     height: 2in;
     object-fit: cover;
     padding-left: 1%;
 }
-.refresh{
-    text-align: left;
-    margin-left: -85%;
+
+.refresh {
+    width: 100%;
+    max-width: 5%;
+    float: left;
+    top: 21.5dvw;
+    font-size: .8dvw;
+    margin-left: 5dvw;
+}
+
+.block {
+    /* flex: 1 0 auto; */
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    max-height: 95dvh;
+    background: linear-gradient(to right,
+            #d1e9ca 0%,
+            #d1e9ca 50%,
+            #FCE2E6 50%,
+            #FCE2E6 100%);
+}
+
+.fill {
+    background: linear-gradient(to right,
+            #d1e9ca 0%,
+            #d1e9ca 50%,
+            #FCE2E6 50%,
+            #FCE2E6 100%);
+}
+.CatLabel{
+    position: absolute;
+    left: 4.2dvw;
+    top: 5.5dvw;
+    font-weight: bold;
+}
+.freebird{
+    max-width: 13dvw;
+    height: auto;
+    width: auto;
+    position:absolute;
+    left: 20dvw;
+    top:15dvh;
+}
+.bird{
+    position: absolute;
+    left: 19.9dvw;
+    top: 42dvh;
+    text-decoration: none;
+}
+.music{
+    position: absolute;
+    left: 19.9dvw;
+    top: 12dvh;
+    text-decoration: none;
+    font-weight: bold;
+}
+.tpab{
+    max-width: 13dvw;
+    height: auto;
+    width: auto;
+    position:absolute;
+    left: 35dvw;
+    top:15dvh;
 }
