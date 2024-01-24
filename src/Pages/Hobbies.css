@@ -45,14 +45,14 @@
 
 .CatLabel {
   position: absolute;
-  left: 4.2dvw;
+  left: 2dvw;
   top: 12.3dvh;
   font-weight: bold;
 }
 .freebird {
   max-width: 13dvw;
-  height: 26dvh;
-  width: 13dvw;
+  height: auto;
+  width: auto;
   position: absolute;
   left: 20dvw;
   top: 14.4dvh;
@@ -72,8 +72,8 @@
 }
 .tpab {
   max-width: 13dvw;
-  height: 26dvh;
-  width: 13dvw;
+  height: auto;
+  width: auto;
   position: absolute;
   left: 35dvw;
   top: 14.4dvh;
