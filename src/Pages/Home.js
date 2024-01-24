@@ -13,13 +13,13 @@ export default function Home() {
             Hello my name is Jay, and I like to program, I made this website to
             provide more information about me while seeing a project I created.
             <br />
-                <img src={image} className="image" alt="img of me"></img>
+            The home page is meant to give a basic overview about me. <br />
+            The info page will give you my contact information. <br />
+            The project page will let you see and download my old projects,
+            <br /> The hobbies page you can learn more about my personal life
+            and interests.
             <br />
-            <br />
-            The home page is meant to give a basic overview about me. the info
-            page will give you my contact information. The project page will let
-            you see and download my old projects, and in my hobbies page you can
-            learn more about my personal life and interests.
+            <img src={image} className="image" alt="img of me"></img>
           </p>
         </div>
         <div className="fill"></div>

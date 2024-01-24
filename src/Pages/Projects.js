@@ -8,7 +8,7 @@ export default function Projects() {
     return(
         <>
             <Header />
-            <div className="block">
+            <div className="block1">
         <div className="textBox">
           <h1 className="header">Projects</h1>
           <img src={ballGameIMG} className='ballGameImg' alt='ballgame'></img>
@@ -18,7 +18,7 @@ export default function Projects() {
           <a href='https://github.com/HDSB-GWS-Brooks-202223-ICS3-01/final-project-Wi1Ian'><button className='dungeonGameDownload'>Download</button></a>
           <a href='https://github.com/HDSB-GWS-LTO-202324-ICS4-02/ics4-fpt-semester-1-2023-2024-Verma-Jay.git'><button className='websiteDownload'>Download</button></a>
         </div>
-        <div className="fill"></div>
+        <div className="fill1"></div>
       </div>
         </>
     )

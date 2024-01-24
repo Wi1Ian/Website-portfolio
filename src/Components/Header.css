@@ -1,5 +1,4 @@
 .row {
-
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -8,33 +7,33 @@
 }
 
 .link {
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 14px;
-    top: 0;
-    
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 14px;
+  max-height: 6dvh;
+  height: 6dvh;
 }
-
 
 li a:hover {
-    background-color: rgb(37, 37, 37);
+  background-color: rgb(37, 37, 37);
 }
 
-nav ul{
-  padding:0px;
-  margin:0px;
-  background:#000;
-  overflow:auto;
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  background: #000;
+  overflow: auto;
 }
 
-nav{
+nav {
   position: sticky;
   top: 0;
   width: 100dvw;
   background-color: black;
   margin: 0 0 0 0;
-  display: block;
+  /* display: block; */
+  max-height: 5dvh;
   height: 5dvh;
 }
 
@@ -42,13 +41,16 @@ nav li {
   list-style: none;
   float: left;
 }
-nav li a{
-    background-color: black;
-    display: block;
-    text-decoration: none;
-    color: white;
-    border-right: 2px solid #e7e7e7;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 25px;
+nav li a {
+  background-color: black;
+  display: block;
+  text-decoration: none;
+  color: white;
+  border-right: 0.05dvh solid #e7e7e7;
+  padding-left: 0.8dvw;
+  padding-right: 0.8dvw;
+  font-size: 1.5dvw;
+  max-height: 5dvh;
+  height: 5dvh;
+  
 }

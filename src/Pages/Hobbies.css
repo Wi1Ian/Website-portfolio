@@ -1,71 +1,135 @@
-.crazy {
-    width: 1in;
-    height: 2in;
-    object-fit: cover;
-    padding-left: 1%;
-}
-
-.refresh {
-    width: 100%;
-    max-width: 5%;
-    float: left;
-    top: 21.5dvw;
-    font-size: .8dvw;
-    margin-left: 5dvw;
-}
-
-.block {
+.block2 {
     /* flex: 1 0 auto; */
     display: flex;
     flex-flow: column;
     flex-direction: column;
     max-height: 95dvh;
-    background: linear-gradient(to right,
-            #d1e9ca 0%,
-            #d1e9ca 50%,
-            #FCE2E6 50%,
-            #FCE2E6 100%);
+    height: 95dvh;
+    background: linear-gradient(
+      to right,
+      #b498a7 0%,
+      #b498a7 50%,
+      #a5b1bb 50%,
+      #a5b1bb 100%
+    );
+  }
+  
+  .fill2 {
+    background: linear-gradient(
+      to right,
+      #b498a7 0%,
+      #b498a7 50%,
+      #a5b1bb 50%,
+      #a5b1bb 100%
+    );
+  }
+
+.crazy {
+  position: absolute;
+  width: 30dvw;
+  height: 30dvh;
+  max-width: 30dvw;
+  object-fit: cover;
+  top: 14.4dvh;
+  right: 78dvw;
 }
 
-.fill {
-    background: linear-gradient(to right,
-            #d1e9ca 0%,
-            #d1e9ca 50%,
-            #FCE2E6 50%,
-            #FCE2E6 100%);
+.refresh {
+  position: absolute;
+  width: 100%;
+  max-width: 5%;
+  right: 90.4dvw;
+  top: 37dvh;
+  font-size: 0.8dvw;
 }
-.CatLabel{
+
+.CatLabel {
+  position: absolute;
+  left: 4.2dvw;
+  top: 12dvh;
+  font-weight: bold;
+}
+.freebird {
+  max-width: 13dvw;
+  height: 26dvh;
+  width: 13dvw;
+  position: absolute;
+  left: 20dvw;
+  top: 14.4dvh;
+}
+.bird {
+  position: absolute;
+  left: 19.9dvw;
+  top: 38.7dvh;
+  font-size: 0.8dvw;
+}
+.music {
+  position: absolute;
+  left: 19.9dvw;
+  top: 12dvh;
+  text-decoration: none;
+  font-weight: bold;
+}
+.tpab {
+  max-width: 13dvw;
+  height: 26dvh;
+  width: 13dvw;
+  position: absolute;
+  left: 35dvw;
+  top: 14.4dvh;
+}
+.birdlink {
+  position: absolute;
+  text-decoration: none;
+  word-wrap: none;
+  white-space: nowrap;
+}
+.nirvana {
+  max-width: 13dvw;
+  height: 26dvh;
+  width: 13dvw;
+  position: absolute;
+  left: 50dvw;
+  top: 14.4dvh;
+}
+.duvet {
+  max-width: 13dvw;
+  height: 26dvh;
+  width: 13dvw;
+  position: absolute;
+  left: 65dvw;
+  top: 14.4dvh;
+}
+.DOOM {
+  max-width: 13dvw;
+  height: 26dvh;
+  width: 13dvw;
+  position: absolute;
+  left: 80dvw;
+  top: 14.4dvh;
+}
+.kendrick {
+  position: absolute;
+  left: 34.96dvw;
+  top: 38.7dvh;
+  font-size: 0.8dvw;
+}
+
+.bowie{
     position: absolute;
-    left: 4.2dvw;
-    top: 5.5dvw;
-    font-weight: bold;
+    left: 49.96dvw;
+    top: 38.7dvh;
+    font-size: 0.8dvw; 
 }
-.freebird{
-    max-width: 13dvw;
-    height: auto;
-    width: auto;
-    position:absolute;
-    left: 20dvw;
-    top:15dvh;
-}
-.bird{
+.twilight{
     position: absolute;
-    left: 19.9dvw;
-    top: 42dvh;
-    text-decoration: none;
+    left: 64.92dvw;
+    top: 38.7dvh;
+    font-size: 0.8dvw; 
 }
-.music{
+.MFDOOM{
     position: absolute;
-    left: 19.9dvw;
-    top: 12dvh;
-    text-decoration: none;
-    font-weight: bold;
-}
-.tpab{
-    max-width: 13dvw;
-    height: auto;
-    width: auto;
-    position:absolute;
-    left: 35dvw;
-    top:15dvh;
+    left: 79.93dvw;
+    top: 38.7dvh;
+    font-size: 0.8dvw;
 }

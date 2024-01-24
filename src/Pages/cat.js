@@ -22,8 +22,9 @@ async function getImage() {
     catImg.setAttribute("src", `${caturl}`);
     let crazy = document.querySelector(".crazy");
     //   button.addEventListener("click", clicked())
-    catImg.style.width = "200px";
-    catImg.style.height = "200px";
+    catImg.style.width = "13vw";
+    catImg.style.height = "21.6dvh";
+    catImg.style.maxWidth = "13dvw";
     catImg.style.objectFit = "cover";
     catImg.style.border = "2px solid black";
     crazy.innerHTML = ""; //removes hte last image

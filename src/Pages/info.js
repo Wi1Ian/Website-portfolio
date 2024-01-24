@@ -12,7 +12,7 @@ export default function info() {
         <div className="info">
           <h1 className="header"> Contact information</h1>
           <p className="header2">Email: jayvermaa@icloud.com</p>
-          <p className="header2">Phone Number: 437-983-2754</p>
+          <p className="header2">Phone Number: 437-983-XXXX</p>
           <footer className="footer"> 
           <a href="https://github.com/Wi1Ian" className="h">
           <img className="gitLogo" src={gitLogo} alt="gitLogo"></img>
