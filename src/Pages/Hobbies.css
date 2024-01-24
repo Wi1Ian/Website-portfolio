@@ -46,7 +46,7 @@
 .CatLabel {
   position: absolute;
   left: 4.2dvw;
-  top: 12dvh;
+  top: 12.3dvh;
   font-weight: bold;
 }
 .freebird {
@@ -86,24 +86,24 @@
 }
 .nirvana {
   max-width: 13dvw;
-  height: 26dvh;
-  width: 13dvw;
+  height: auto;
+  width: auto;
   position: absolute;
   left: 50dvw;
   top: 14.4dvh;
 }
 .duvet {
   max-width: 13dvw;
-  height: 26dvh;
-  width: 13dvw;
+  height: auto;
+  width: auto;
   position: absolute;
   left: 65dvw;
   top: 14.4dvh;
 }
 .DOOM {
   max-width: 13dvw;
-  height: 26dvh;
-  width: 13dvw;
+  height: auto;
+  width: auto;
   position: absolute;
   left: 80dvw;
   top: 14.4dvh;
